@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.6</TargetFramework>
+    <Authors>Warren@SeagullConsulting.Biz</Authors>
+    <Company>Seagull Consulting, Inc.</Company>
+    <Description>A Library of Math functions</Description>
+    <Copyright>Copyright © 2016 - Seagull Consulting, Inc.</Copyright>
+    <PackageReleaseNotes>Initial version</PackageReleaseNotes>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageTags>netstandard</PackageTags>
+    <AssemblyVersion>0.9.0.0</AssemblyVersion>
+    <FileVersion>0.9.0.0</FileVersion>
+    <Version>0.9.0</Version>
+    <AssemblyName>MathLib</AssemblyName>
+    <RootNamespace>MathLib</RootNamespace>
+  </PropertyGroup>
+
+</Project>

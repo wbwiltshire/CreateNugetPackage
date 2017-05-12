@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Version>0.9.0</Version>
+    <Company>Seagull Consulting, Inc.</Company>
+    <Authors>Warren@SeagullConsulting.Biz</Authors>
+    <Description>A library of Math methods</Description>
+    <Copyright>Copyright © 2016 - Seagull Consulting, Inc.</Copyright>
+    <PackageReleaseNotes>Initial release</PackageReleaseNotes>
+    <PackageTags>netcore</PackageTags>
+    <AssemblyName>MathLib</AssemblyName>
+    <RootNamespace>MathLib</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\MathLibStandard\Math.cs" Link="Math.cs" />
+  </ItemGroup>
+
+</Project>

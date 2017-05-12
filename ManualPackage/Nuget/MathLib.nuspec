@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>MathLib</id>
+    <version>0.9.0</version>
+    <title>MathLib</title>
+    <authors>Seagull Consulting, Inc.</authors>
+    <owners>Warren@SeagullConsulting.Biz</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Library of Math methods</description>
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>netcore netstandard framework math</tags>
+  </metadata>
+	<files>
+          <file src="..\MathLibFramework\bin\Debug\MathLib.dll" target="lib\net462" />
+          <file src="..\MathLibStandard\bin\Debug\netstandard1.6\MathLib.dll" target="lib\netstandard1.6" />
+		<file src="..\MathLibCore\bin\Debug\netcoreapp1.1\MathLib.dll" target="lib\netcoreapp1.1" />
+   </files></package>
